@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Hipotenusa</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
+    <body>
 
-    <script src="index.js"></script>
-</body>
+        <header>
+            <h1>Calculadora de Hipotenusa</h1>
+        </header>
+
+        <main>
+
+            <div class="input-box">
+                <section>
+                    <label for="a">Lado A</label>
+                    <input type="text" id="a">
+                </section>
+
+                <section>
+                    <label for="b">Lado B</label>
+                    <input type="text" id="b">
+                </section>
+            </div>
+
+            <div id="container">
+                <button type="button" id="calcular">Calcular</button>
+            </div>
+
+            <div>
+                <h2 id="resultado"></h2>
+            </div>
+        </main>
+
+
+        <script src="index.js"></script>
+    </body>
 
 </html>
