@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MTG LifeCounter</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
+    <body>
+        <header>Magic The Gathering Life Point Counter</header>
 
-    <script src="index.js"></script>
-</body>
+        <main>
+            <div id="p1">
+                <label for="p1-currentPoints"></label>
+
+                <button class="plusFive">+5</button>
+                <button class="plusOne">+1</button>
+
+                <button class="minusOne">-1</button>
+                <button class="minusFive">-5</button>
+            </div>
+
+            <div id="p2">
+                <label for="p2-currentPoints"></label>
+
+                <button class="plusFive">+5</button>
+                <button class="plusOne">+1</button>
+
+                <button class="minusOne">-1</button>
+                <button class="minusFive">-5</button>
+            </div>
+
+            <button id="reset">Reset</button>
+        </main>
+
+        <script src="index.js"></script>
+    </body>
 
 </html>
