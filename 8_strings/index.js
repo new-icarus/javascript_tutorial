@@ -21,3 +21,7 @@ console.log(lastName);
 
 firstName = fullName.slice(0, fullName.indexOf(" "));
 console.log(firstName);
+
+//method chaining
+
+console.log(fullName.toUpperCase().replaceAll("E", "3").replaceAll("A", "4").replaceAll("I", "1").replaceAll("O", "0"));
