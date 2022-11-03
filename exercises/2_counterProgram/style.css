@@ -1,15 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
-
 html {
-    font-family: 'Nanum Brush Script', cursive;
+    color: #362857;
 }
 
 header {
-    font-size: 2.8rem;
+    font-size: 4.2rem;
     text-align: center;
+    margin-top: 0.6em;
+    margin-bottom: 1em;
+}
+
+#p1-lifePoints,
+#p2-lifePoints {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.player {
+    width: 50%;
+    float: left;
+}
+
+.buttons {
+    width: 50%;
+    margin: 0.6em auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 button {
-    font-family: 'Nanum Brush Script', cursive;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+
+    border-radius: 5px;
+    border: 1px solid white;
+
+    background-color: #ffffff;
+    color: #362857;
+}
+
+button:hover {
+    color: white;
+    background-color: #362857;
 }

@@ -11,39 +11,31 @@
     </head>
 
     <body>
-        <header>Magic The Gathering Life Point Counter</header>
+        <header>MTG Life Counter</header>
 
-        <main>
-            <div id="p1">
-                <label id="p1-lifepoints"></label>
+        <div class="player">
+            <label id="p1-lifePoints">20</label>
 
-                <div class="player-plus">
-                    <button class="plusFive">+5</button>
-                    <button class="plusOne">+1</button>
-                </div>
-
-                <div class="player-minus">
-                    <button class="minusOne">-1</button>
-                    <button class="minusFive">-5</button>
-                </div>
+            <div class="buttons">
+                <button id="p1-plusFive">+5</button>
+                <button id="p1-plusOne">+1</button>
+                <button id="p1-reset">reset</button>
+                <button id="p1-minusOne">-1</button>
+                <button id="p1-minusFive">-5</button>
             </div>
+        </div>
 
-            <div id="p2">
-                <label id="p2-lifepoints"></label>
+        <div class="player">
+            <label id="p2-lifePoints">20</label>
 
-                <div class="player-plus">
-                    <button class="plusFive">+5</button>
-                    <button class="plusOne">+1</button>
-                </div>
-
-                <div class="player-minus">
-                    <button class="minusOne">-1</button>
-                    <button class="minusFive">-5</button>
-                </div>
+            <div class="buttons">
+                <button id="p2-plusFive">+5</button>
+                <button id="p2-plusOne">+1</button>
+                <button id="p2-reset">reset</button>
+                <button id="p2-minusOne">-1</button>
+                <button id="p2-minusFive">-5</button>
             </div>
-
-            <button id="reset">Reset</button>
-        </main>
+        </div>
 
         <script src="index.js"></script>
     </body>
