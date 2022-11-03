@@ -11,3 +11,13 @@ console.log(userName.lastIndexOf("o")); //5
 console.log(userName.toUpperCase());
 console.log(userName.toLowerCase());
 console.log(phoneNumber.replaceAll("-", ""));
+
+let fullName = "Tiago Macedo Cesar";
+let firstName;
+let lastName;
+
+lastName = fullName.slice(13);
+console.log(lastName);
+
+firstName = fullName.slice(0, fullName.indexOf(" "));
+console.log(firstName);
