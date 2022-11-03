@@ -1,9 +1,34 @@
-let d20 = Math.floor(Math.random() * 20) + 1;
-let d12 = Math.floor(Math.random() * 12) + 1;
-let d10 = Math.floor(Math.random() * 10) + 1;
-let d8 = Math.floor(Math.random() * 8) + 1;
-let d6 = Math.floor(Math.random() * 6) + 1;
-let d4 = Math.floor(Math.random() * 4) + 1;
+document.getElementById('rolarD100').onclick = function () {
+    document.getElementById('d100').innerHTML =
+        Math.floor(Math.random() * 100) + 1;
+};
 
+document.getElementById('rolarD20').onclick = function () {
+    document.getElementById('d20').innerHTML =
+        Math.floor(Math.random() * 20) + 1;
+};
 
-console.log(`d20: ${d20}\nd12 : ${d12}\nd10: ${d10}\nd8: ${d8}\nd6: ${d6}\nd4: ${d4}`);
+document.getElementById('rolarD12').onclick = function () {
+    document.getElementById('d12').innerHTML =
+        Math.floor(Math.random() * 12) + 1;
+};
+
+document.getElementById('rolarD10').onclick = function () {
+    document.getElementById('d10').innerHTML =
+        Math.floor(Math.random() * 10) + 1;
+};
+
+document.getElementById('rolarD8').onclick = function () {
+    document.getElementById('d8').innerHTML =
+        Math.floor(Math.random() * 8) + 1;
+};
+
+document.getElementById('rolarD6').onclick = function () {
+    document.getElementById('d6').innerHTML =
+        Math.floor(Math.random() * 6) + 1;
+};
+
+document.getElementById('rolarD4').onclick = function () {
+    document.getElementById('d4').innerHTML =
+        Math.floor(Math.random() * 4) + 1;
+};
